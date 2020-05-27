@@ -200,8 +200,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="136dp"
-        android:layout_height="60dp"
+        android:layout_width="134dp"
+        android:layout_height="70dp"
         android:background="@drawable/buttontaskbar_background"
         android:drawableTop="@android:drawable/ic_menu_search"
         android:text="Room"
@@ -216,7 +216,7 @@
     <Button
         android:id="@+id/button4"
         android:layout_width="139dp"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:background="@drawable/buttontaskbar_background"
         android:drawableTop="@android:drawable/ic_menu_my_calendar"
         android:text="Order"
@@ -231,8 +231,8 @@
     <Button
         android:id="@+id/button5"
         android:layout_width="136dp"
-        android:layout_height="60dp"
-        android:background="@drawable/buttontaskbar_background"
+        android:layout_height="70dp"
+        android:background="@drawable/buttontaskbar_background_selecet"
         android:drawableTop="@android:drawable/ic_menu_myplaces"
         android:text="Profle"
         android:textAllCaps="false"

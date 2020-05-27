@@ -12,6 +12,7 @@ public class Main2Activity extends AppCompatActivity {
 
     Button btTieptuc2;
     Button bt1;
+    Button btTieptuc3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,14 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getBaseContext(),"Email has been sent",Toast.LENGTH_LONG).show();
+            }
+        });
+        btTieptuc3 = (Button) findViewById(R.id.btTieptuc3);
+        btTieptuc2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent backmh1 = new Intent(Main2Activity.this, dangki.class);
+                startActivity(backmh1);
             }
         });
     }
